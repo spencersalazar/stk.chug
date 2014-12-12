@@ -1,0 +1,5 @@
+#!/bin/bash
+
+CLANG_LLVM_PATH=/usr/local/clang+llvm
+
+PYTHONPATH=. LD_LIBRARY_PATH=$CLANG_LLVM_PATH/lib python generate.py $@
