@@ -1,0 +1,19 @@
+{
+    "properties": {
+        "attackTime": {
+            "mvar": null,
+            "config": ["float_secs_to_time"]
+        },
+        "decayTime": {
+            "mvar": null,
+            "config": ["float_secs_to_time"]
+        }
+    },
+    "map": [
+        {
+            "from": "setAllTimes", "to": "set", 
+            "args": ["float_secs_to_time", "float_secs_to_time", null, "float_secs_to_time"]
+        }
+    ]
+}
+
